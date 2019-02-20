@@ -14,9 +14,11 @@ In this project, you will study disengagement data from AV manufactures and anal
 
 
 **Dataset description:**
+
 In a real-world setting, the data required for analysis might be spread across multiple sources. That is the case in our analysis too. Below is a description of the raw files in which the data is available and the data fields in the file. As mentioned previously, the data has been derived from California DMV, but has been sufficiently modified. Identicality to a known AV manufacturer is purely coincidental.
 
 **mp1_av_disengagement.csv**
+
 This file lists the details of each disengagement that happened in AV testing.
 mp1_av_totalmiles.csv
 This file contains the total number of miles driven and other summary statistics by month.
@@ -31,12 +33,19 @@ Weather: Weather conditions when the disengagement happened
 TypeOfTrigger: Whether the disengagement was automatic (decision taken by AV) or manual (decision taken by human driver)
 ReactionTime: Time taken, in seconds, by the human driver to take control of the car after an automatic trigger.
 NOTE: ReactionTime is not given for manual disengagements since it does not involve a trigger by the AV.
+
 Cause: Reason for the disengagement
 
 **mp1_av_totalmiles.csv**
+
 Month: Month and year of AV testing
+
 Car: ID of the AV
+
 Miles driven: Total number of miles driven by the AV during the given month
+
 Total number of disengagements: Number of disengagements during the given month
+
 Number of automatic disengagements: Number of disengagements where the AV decided to give control to the human driver
+
 Number of manual disengagements: Number of times the human driver decided to take control of the
