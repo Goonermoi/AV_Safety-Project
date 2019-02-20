@@ -20,11 +20,13 @@ In a real-world setting, the data required for analysis might be spread across m
 This file lists the details of each disengagement that happened in AV testing.
 mp1_av_totalmiles.csv
 This file contains the total number of miles driven and other summary statistics by month.
-Column Name
-Explanation
+
 Month: Month and year when the disengagement happened
+
 Car: ID of the AV
+
 Location: Where the car was when the disengagement happened
+
 Weather: Weather conditions when the disengagement happened
 TypeOfTrigger: Whether the disengagement was automatic (decision taken by AV) or manual (decision taken by human driver)
 ReactionTime: Time taken, in seconds, by the human driver to take control of the car after an automatic trigger.
